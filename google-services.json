@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802229078194",
+    "project_id": "loginandsign-b3b3c",
+    "storage_bucket": "loginandsign-b3b3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802229078194:android:6a699ae58b664c0d2b21ab",
+        "android_client_info": {
+          "package_name": "com.project.loginandsign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsJ2vuc525dztSlgyvLuMHrCOKFtpix3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

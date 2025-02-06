@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_31"
+    tools:context=".Active.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SIGN UP Now"
+        android:textColor="@color/white"
+        android:textSize="31dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textemail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/textemail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="344dp"
+        android:autoSizeTextType="none"
+        android:gravity="center"
+        android:background="@drawable/edittext_boder"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/textpass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/edittext_boder"
+        android:gravity="center"
+        android:hint="password"
+         android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/textemail"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/mcbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_boder"
+        android:hint="SIGN UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpass"
+        app:layout_constraintVertical_bias="0.263"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        android:text="Go To Login page.."
+        android:textColor="#E3EDE3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mcbutton"
+        app:layout_constraintVertical_bias="0.724"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

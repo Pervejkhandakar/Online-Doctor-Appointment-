@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pasan_me">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Doctor's Image and Name -->
+
+            <!-- Info Section -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/img_18">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="79dp"
+
+                    android:text="Appointment"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+
+                <ImageView
+                    android:id="@+id/doctor_image"
+                    android:layout_width="258dp"
+                    android:layout_height="385dp"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-57dp"
+                    android:layout_marginTop="-107dp"
+                    android:layout_marginEnd="-1dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/doctor_speciality"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_7" />
+
+                <TextView
+                    android:id="@+id/doctor_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/doctor_image"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="-226dp"
+                    android:text="Dr. Khandokar Sehnela "
+                    android:textColor="#FFEB3B"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/doctor_speciality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/doctor_name"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="180dp"
+                    android:text="MBBS (MMC) BCS (Health)"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="-22dp"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_toStartOf="@+id/doctor_image"
+                    android:text="National Gastroliver Institute and Hospital"
+                    android:textColor="#673AB7"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="-11dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_toStartOf="@+id/doctor_image"
+                    android:text="22 Years of Experience Overall"
+                    android:textSize="22dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Patients
+                    +5000"
+                    android:textSize="16sp"
+                    android:gravity="center" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Experience
+                    22Years"
+                    android:textSize="16sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rating
+                    ⭐⭐⭐"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biography"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22/7 A S M Nuruzzaman Road, Block-B, Babor Road, Mohammadpur, Dhaka-1207, Bangladesh.."
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/googleImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img_20"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/Facebook"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img_25"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/phoneImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img_22"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img_23"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img_24"
+                    android:padding="8dp"/>
+            </LinearLayout>
+
+            <!-- Make Appointment Button -->
+            <Button
+                android:id="@+id/sendSmsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make Appointment"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
